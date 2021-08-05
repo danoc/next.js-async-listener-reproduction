@@ -38,4 +38,4 @@ yarn install
 node server.js
 ```
 
-Notice that commenting out [the problematic line](https://github.com/danoc/next.js-async-listener-reproduction/blob/aa9adc171aa03c38acede2a2f69a73e9f5204ce5/server.js#L2) or [using Webpack 4](https://github.com/danoc/next.js-async-listener-reproduction/blob/1e318279dbf25a61822e1195a0728571ae7bf72b/next.config.js#L3) makes the error go away.
+Notice that commenting out [the problematic line](https://github.com/danoc/next.js-async-listener-reproduction/blob/aa9adc171aa03c38acede2a2f69a73e9f5204ce5/server.js#L2) or [using Webpack 4](https://github.com/danoc/next.js-async-listener-reproduction/blob/1e318279dbf25a61822e1195a0728571ae7bf72b/next.config.js#L3) makes the error go away. Also, this error only appears when `next({ dev: true })`. The issue does not appear in production builds.
