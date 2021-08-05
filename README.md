@@ -27,6 +27,8 @@ info  - Using webpack 5. Reason: Enabled by default https://nextjs.org/docs/mess
 
 I stumbled upon this when trying to integrate Next.js into a codebase that uses `zipkin-context-cls`. `zipkin-context-cls` depends on `continuation-local-storage` which itself depends on `async-listener`.
 
+This fails with both Node 12 and 14.
+
 ## Reproduction
 
 Clone this codebase then:
