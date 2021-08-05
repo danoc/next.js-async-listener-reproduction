@@ -37,3 +37,5 @@ Clone this codebase then:
 yarn install
 node server.js
 ```
+
+Notice that commenting out [the problematic line](https://github.com/danoc/next.js-async-listener-reproduction/blob/aa9adc171aa03c38acede2a2f69a73e9f5204ce5/server.js#L2) or using Webpack 4 (edit next.config.js) makes the error go away.
