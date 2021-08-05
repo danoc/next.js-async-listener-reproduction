@@ -1,6 +1,6 @@
 # next.js-async-listener-reproduction
 
-This is a minimal reproduction of an issue with Next.js, custom servers, Webpack 5, and `async-listener`.
+This is a minimal reproduction of an issue with Next.js, custom servers, Webpack 5, and `async-listener`. The corresponding issue is: https://github.com/vercel/next.js/issues/27792
 
 ## Issue
 
