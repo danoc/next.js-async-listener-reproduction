@@ -4,7 +4,7 @@ This is a minimal reproduction of an issue with Next.js, custom servers, Webpack
 
 ## Issue
 
-Importing `aysnc-listener` in a custom Next.js server on a project that uses Webpack 5 will throw the following error:
+[Importing `aysnc-listener` in a custom Next.js server](https://github.com/danoc/next.js-async-listener-reproduction/blob/fe0ec92bdc64b1449257ff7c3410aa3327eeceec/server.js#L2) on a project that uses Webpack 5 will throw the following error:
 
 ```
 info  - Using webpack 5. Reason: Enabled by default https://nextjs.org/docs/messages/webpack5
